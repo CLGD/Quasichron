@@ -1,2 +1,2 @@
-# Quantum
+# Quasichron
 A GUI library.
