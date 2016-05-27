@@ -1,4 +1,4 @@
--- animate.lua
+-- modules/animate.lua
 -- a module for animating stuff with optional quadratic easing
 
 local module = {}
