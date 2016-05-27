@@ -1,1 +1,0 @@
-local quasichron = dofile(shell.resolve("../quasichron.lua"))
