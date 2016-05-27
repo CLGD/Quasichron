@@ -4,8 +4,10 @@
 local expect = nil
 
 do
-    if system and system.expect then
+    if system and system.expect then -- Radium
         expect = system.expect
+    elseif _G.expect then -- Bench
+        expect = _G.expect
     else
         expect = function(arg, typ, n, optional, level)
             if type(arg) ~= typ and not optional then
